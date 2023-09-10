@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+    {% block title %} Моя первая HTML страница {% endblock %}
+    </title>
+</head>
+<body>
+<header>
+    общие элементы дизайна (шапка)
+</header>
+базовый шаблон
+{% block content %}
+<p>
+    Привет, мир!
+</p>
+{% endblock %}
+<footer>
+    <br>общие элементы дизайна (подвал)
+</footer>
+</body>
+</html>
